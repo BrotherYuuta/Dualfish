@@ -21,7 +21,7 @@ while run:
               "= switch 'a' back to alphabet-mode\n\n< = switch to register1\n> = switch to register2\nr = resets both "
               "registers to 0\n\n'=' = the start and end of a comment\ng = run a program\ne = stop/end the program")
     else:
-        if User_Input == "g":
+        if User_Input == "file":
             try:
                 User_Input = input("File Name: ")
                 with open(User_Input+".dufi") as file:
